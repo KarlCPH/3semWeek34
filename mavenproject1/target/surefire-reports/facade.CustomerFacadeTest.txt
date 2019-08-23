@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: facade.CustomerFacadeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec <<< FAILURE!
+facade.CustomerFacadeTest.testFindByID()  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at facade.CustomerFacadeTest.testFindByID(CustomerFacadeTest.java:65)
+
+facade.CustomerFacadeTest.testGetCustomerFacade()  Time elapsed: 0.028 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <facade.CustomerFacade@238e0d81>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at facade.CustomerFacadeTest.testGetCustomerFacade(CustomerFacadeTest.java:51)
+
